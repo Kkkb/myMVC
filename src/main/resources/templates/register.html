@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- c + / -->
+ <!--注释是这样的, 不会被显示出来 -->
+<!--
+    html 格式是浏览器使用的标准网页格式
+    简而言之就是 标签套标签
+    css 控制显示
+-->
+<!-- html 中是所有的内容 -->
+<html>
+    <!-- head 中是放一些控制信息, 不会被显示 -->
+    <head>
+        <!-- meta charset 指定了页面编码, 否则中文会乱码 -->
+        <meta charset="utf-8">
+        <!-- title 是浏览器显示的页面标题 -->
+        <title>注册</title>
+        <link rel="stylesheet" href="/static?file=index.css">
+    </head>
+    <!-- body 中是浏览器要显示的内容 -->
+    <body>
+    <a href='/'>HOME</a> <a href='/login'>LOGIN</a>
+    <h1>please register</h1>
+
+    <form action="/register" method="POST">
+        <input name="username" placeholder="请输入用户名">
+        <br>
+        <input name="password" placeholder="请输入密码">
+        <br>
+        <input name="note" placeholder="请输入签名">
+        <button type="submit">注册</button>
+    </form>
+    {registerResult}
+    </body>
+</html>
