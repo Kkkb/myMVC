@@ -18,7 +18,13 @@
         * 登录注册, 密码保存为加盐摘要, 提高安全性
         * Session 持久化, 记住用户状态, 退出登录
     * 微博的发表, 删除, 修改, 每个微博提供添加评论功能
-    * 登录/注册演示
-    ![登录/注册演示](https://s1.ax1x.com/2020/07/02/Nblwi8.gif)
-    * 微博发布评论演示
-    ![微博发布演示](https://s1.ax1x.com/2020/07/02/Nbl0JS.gif)
+    
+### 登录/注册演示
+![登录/注册演示](https://s1.ax1x.com/2020/07/02/Nblwi8.gif)
+
+### 微博发布评论演示
+![微博发布演示](https://s1.ax1x.com/2020/07/02/Nbl0JS.gif)
+
+### debug 日志
+![journal1](https://s1.ax1x.com/2020/07/09/UnTmVA.png)
+![journal2](https://s1.ax1x.com/2020/07/09/UnTnUI.png)
